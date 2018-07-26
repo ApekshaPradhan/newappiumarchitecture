@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 33.206 s <<< FAILURE! - in TestSuite
+endTest(com.pCloudy.testNG.LocalRunner1)  Time elapsed: 7.405 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'shibu-pc', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-124-generic', java.version: '1.8.0_171'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {apiKey: shibu.prasad@sstsinc.com, appActivity: com.ba.mobile.LaunchActivity, appPackage: com.pcloudy.appiumdemo, databaseEnabled: false, desired: {apiKey: shibu.prasad@sstsinc.com, appActivity: com.ba.mobile.LaunchActivity, appPackage: com.pcloudy.appiumdemo, deviceName: 2cc6de2a, launchTimeout: 90000, newCommandTimeout: 600, platformName: Android, platformVersion: 6.0.1, userName: shibu.prasad@sstsinc.com}, deviceManufacturer: TCL, deviceModel: 6055K, deviceName: 2cc6de2a, deviceScreenSize: 1080x1920, deviceUDID: 2cc6de2a, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, platform: LINUX, platformName: LINUX, platformVersion: 6.0.1, takesScreenshot: true, userName: shibu.prasad@sstsinc.com, warnings: {}, webStorageEnabled: false}
+Session ID: 5055c124-43a8-40e8-b501-d179747d16d3
+	at com.pCloudy.testNG.LocalRunner1.endTest(LocalRunner1.java:79)
+
